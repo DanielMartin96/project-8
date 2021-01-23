@@ -1,0 +1,6 @@
+if(errors)
+  h3.error Submission Error
+  ul.error
+    each err in errors
+      li
+        =err.message
